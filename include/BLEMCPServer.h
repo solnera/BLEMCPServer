@@ -1,5 +1,5 @@
-#ifndef MCP_SERVER_BLE_H
-#define MCP_SERVER_BLE_H
+#ifndef BLEMCP_SERVER_H
+#define BLEMCP_SERVER_H
 
 #include <Arduino.h>
 #include <ArduinoJson.h>
@@ -219,4 +219,4 @@ class BLEMCPServer {
     String serverInstructions;
 };
 
-#endif  // MCP_SERVER_BLE_H
+#endif  // BLEMCP_SERVER_H

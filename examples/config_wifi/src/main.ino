@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <WiFi.h>
-#include <MCPServer.h>
+#include <BLEMCPServer.h>
 
 BLEMCPServer mcpServer("ESP32-MCP-BLE", "1.0.0", "MCP WiFi configuration tool");
 
